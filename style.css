@@ -1,0 +1,126 @@
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	background-image: url("images/texture.png");
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height:100%;
+}
+
+#header {
+	top:0px;
+	left:0px;
+	width:100%; 
+	float:left;
+}
+
+#headerImage {
+	width: 76%;
+    height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#socialLinks {
+	left:88%;
+    position: absolute; 
+}
+
+#navigation {
+	margin-top:-70px;
+	margin-left: 17%;
+	left:20%;
+	float:left;
+}
+
+#pagelinks {
+	width:20%; 
+	height:auto;
+	min-height: 1px; 
+	float:left;
+}
+
+#pagelinkImage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#information {
+	width:60%; 
+	height:auto;
+	min-height: 53%;
+	margin-top: -10px;
+	border-top-right-radius: 4em;
+	border-top-left-radius: 4em;
+	border-left: 2px solid #431E08;
+	border-top: 2px solid #431E08;
+	border-right: 2px solid #431E08;
+	background:#F5E1BF;
+	float:left
+}
+
+#ads {
+	width:19%; 
+	height:auto;
+	min-height: 1px; 
+	float:left;
+}
+
+#title {
+	color: red;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#subtext {
+	color: black;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#news, #comic, #characters, #world, #about, #galary {
+	left:10%;
+	top:20px;
+}
+
+#characterSection {
+	padding-bottom: 20px;
+	font-size:24px;
+	color: #30180e;
+	font-family: 'Open Sans Condensed';
+}
+
+#characterRace {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#characterText {
+	font-size:12px;
+	color: #30180e;
+	font-family: 'Open Sans Condensed';
+}
+
+.characterLink {
+	font-size:12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	cursor:pointer;
+	color: #30180e;
+	font-family: 'Open Sans Condensed';
+	text-decoration:none
+}
+
+div.galleryPage a{
+}

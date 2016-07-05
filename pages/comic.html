@@ -1,0 +1,56 @@
+<script>
+  window.page = 1;
+  function rightImage() 
+  {
+    if(window.page<9)
+    	window.page++;
+    var img = document.getElementById("chapter");
+    var ch = document.getElementById("selector");
+    img.src="chapters/"+ch.value+ "/"+window.page+".png";
+  }
+  function leftImage() {
+    if(window.page>1)
+    	window.page--;
+    var img = document.getElementById("chapter");
+    var ch = document.getElementById("selector");
+    img.src="chapters/"+ch.value+ "/"+window.page+".png";
+
+  }
+  function changeChapter() {
+    var img = document.getElementById("chapter");
+    var ch = document.getElementById("selector");
+    window.page=1;
+    img.src="chapters/"+ch.value+ "/"+window.page+".png";
+
+  }
+</script>  
+
+<div>
+<center>
+<br>
+<select id="selector" onchange="changeChapter()">
+<option value="chapter1">Chapter 1</value></option>
+<option value="chapter2">Chapter 2</value></option>
+</select>
+</center>
+<br>
+
+	<div>
+	<center>
+		<img class="inner" src="images/left.png" vertical-align:middle alt="left" onclick=leftImage()>
+		<img class="inner" src="chapters/chapter1/1.png" id="chapter" alt="chapter">
+		<img class="inner" src="images/right.png" vertical-align:middle alt="right" onclick=rightImage()>
+	</center>
+	</div>
+
+
+<style type="text/css">
+body {
+  background-color:black;
+}
+
+.inner {
+  display:inline-block;
+  vertical-align:middle;
+}
+<style>
